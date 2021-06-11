@@ -1,6 +1,10 @@
 var listEL = new listEmloyee();
 var validation = new Validation();
 
+function addUser(){
+  console.log("Đây là addUser của Khoa001")
+}
+
 function getEle(id) {
   return document.getElementById(id);
 }
