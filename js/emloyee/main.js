@@ -2,8 +2,12 @@ var listEL = new listEmloyee();
 var validation = new Validation();
 
 function addUser(){
+<<<<<<< HEAD
+  console.log("Đây là addUser của Khoa002");
+=======
   console.log("Đây là addUser của Khoa001")
 }
+>>>>>>> main
 
 function getEle(id) {
   return document.getElementById(id);
